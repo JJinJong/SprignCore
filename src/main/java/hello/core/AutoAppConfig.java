@@ -21,8 +21,8 @@ public class AutoAppConfig {
     //spring.main.allow-bean-definition-overriding=true
     //스프링 수동 등록과 자동등록시 자동으로 오버라이딩 되게 해주는 설정, application.properties에 넣어주면된다
     //스프링 부트는 기본적으로 수동등록과 자동등록의 이름이 겹치면 예외를 발생 시킨다.
-    @Bean(name = "memoryMemberRepository")
-    MemberRepository memberRepository() {
-        return new MemoryMemberRepository();
-    }
+//    @Bean(name = "memoryMemberRepository")
+//    MemberRepository memberRepository() {
+//        return new MemoryMemberRepository();
+//    }
 }
